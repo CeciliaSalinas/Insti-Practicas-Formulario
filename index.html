@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>ECHA</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="#acerca">Acerca de</a>
+                <a href="#contacto">Contacto</a> 
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="portada">
+            <h1 class="marca">ECHA</h1>
+            <p>espacio chapadmalad</p>
+        </div>
+        <article></article>
+        <section class="seccionA">
+            <h2 id="acerca">¿Quienes somos?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis magni explicabo nam neque odit sequi quisquam. Sit animi dolores modi officia, nam sed illo quod aliquid laborum rerum aperiam reiciendis minima eaque enim voluptatem explicabo quas exercitationem magnam consequatur eum! Libero voluptatum ad exercitationem, tempora nobis possimus illum dolorem reiciendis. Necessitatibus, accusamus. Porro ratione reiciendis a earum, omnis placeat voluptate corrupti ipsam, consequatur cupiditate, delectus eos fugit magnam maxime nemo possimus. Eos a asperiores quibusdam. Hic ducimus atque sapiente consequuntur, asperiores quibusdam eos accusamus illum porro veniam voluptatem modi sit. Eius corporis autem itaque soluta rem dolor cumque quam expedita!</p>
+        </section>
+        <section>
+            <div class="contenedor">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque porro aspernatur aliquid quasi voluptates perspiciatis voluptate tempora facilis autem, praesentium culpa delectus explicabo, saepe consequuntur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, fugiat possimus ad, qui accusantium dolores ut consequatur reiciendis aut ratione beatae aperiam neque eum harum nesciunt dolor. Accusantium expedita nulla debitis, numquam explicabo consequatur laboriosam, molestiae dolorum cum, ex nobis!</p>
+                <img class="cafe" src="img/coffe1 (1).jpg" alt="cafe Brazil">
+                <img class="cafe" src="img/coffe2.jpg" alt="cafe Cubano">
+            </div>
+        </section>
+        <section class="formulario">
+            <h2>Suscribite a nuestro newsletter</h2>
+            <form action="suscrpcion.php">
+                <input type="text" name="nombre" placeholder="Nombre">
+                <input type="text" name="apellido" placeholder="Apellido">
+                <input type="radio" name="tipo" value="nc">Noticias completas <br>
+                <input type="radio" name="tipo" value="nr">Noticias resumidas <br>
+                <input type="email" name="email" placeholder="email">
+                <label for="pago">Ingrese su pago</label>
+                <input type="radio" name="pago" value="tc">Tarjeta crédito <br>
+                <input type="radio" name="pago" value="td">Tarjeta débito <br>
+                <input type="number" name="cantidad" min="1" max="12">
+                <label for="provincia">Provincia</label>
+                <select name="provincia">
+                    <option value="s">Santa Fe</option>
+                    <option value="c">Cordoba</option>
+                    <option value="e">Entre Rios</option>
+                </select>
+                <input type="checkbox" name="estudiante">¿Sos estudiante?
+                <textarea name="comentario" cols="30" rows="10"></textarea>
+                <input type="submit" value="enviar datos">
+            </form>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="estilo.js" ></script>
+</body>
+</html>
