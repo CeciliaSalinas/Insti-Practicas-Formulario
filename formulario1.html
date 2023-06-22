@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario1.css">
+    <title>Notas</title>
+</head>
+<body>
+
+    <!--Hacer un formulario HTML que le permita a un docente ingresar las notas de los 3 parciales de un estudiante -->
+
+    <div class="planilla" >
+        <h1>NOTAS PARCIALES</h1>
+        <form action="formulario1.php" method="post">
+            <label for="nota1">1° PARCIAL</label>            
+           <input type="number" name="nota1" min="0" max="10"><br>
+
+            <label for="nota2">2° PARCIAL</label>
+           <input type="number" name="nota2" min="0" max="10"><br>
+
+            <label for="nota3">3° PARCIAL</label>
+           <input type="number" name="nota3" min="0" max="10"> <br>
+           
+           <input id="boton" type="submit" value="Enviar Notas">
+        </form>
+    </div>
+</body>
+</html>
