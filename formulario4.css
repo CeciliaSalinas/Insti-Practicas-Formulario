@@ -1,12 +1,10 @@
 div{
-    background-color:cornflowerblue;
+    background-color:mediumpurple;
     text-align: center;
     height: 300px;
     width: 500px;
     margin: auto;
 }
-
-
 
 input{
     margin: 1em;
